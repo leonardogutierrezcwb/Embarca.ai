@@ -1,8 +1,28 @@
-# Descrição
-Para a execução do script de teste é necessário realizar os seguintes procedimentos:
+# Embarca.ai - Teste de Qualidade de Software
 
-# Instalar Node.js e Cypress
-Com privilégio de administrador execute o CMD com o seguinte comando: npm install -g npm npm install --save-dev cypress
+Este repositório contém scripts automatizados para testar fluxos de compra de passagens no site Embarca.ai utilizando Cypress e JavaScript.
 
-# Execute o seguinte comando
+## Pré-requisitos
+
+- Node.js
+- Cypress
+
+## Instalação
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/leonardogutierrezcwb/Embarca.ai.git
+    cd Embarca.ai
+    ```
+
+2. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+## Executando os testes
+
+Para abrir o Cypress e rodar os testes:
+
+```bash
 npx cypress open
