@@ -1,11 +1,11 @@
 # Embarca.ai - Teste de Qualidade de Software
 
-Este repositório contém scripts automatizados para testar fluxos de compra de passagens no site Embarca.ai utilizando Cypress e JavaScript.
+Este repositório contém scripts automatizados para testar os fluxos de compra de passagens no site Embarca.ai utilizando Cypress, JavaScript e Faker para gerar dados dinâmicos.
 
 ## Pré-requisitos
 
-- Node.js
-- Cypress
+- [Node.js](https://nodejs.org/)
+- [Cypress](https://www.cypress.io/)
 
 ## Instalação
 
@@ -15,14 +15,20 @@ Este repositório contém scripts automatizados para testar fluxos de compra de 
     cd Embarca.ai
     ```
 
-2. Instale as dependências:
+2. Instale as dependências do projeto:
     ```bash
     npm install
     ```
 
-## Executando os testes
+## Estrutura do Projeto
 
-Para abrir o Cypress e rodar os testes:
+- **cypress/**: Diretório principal do Cypress que contém as configurações e testes.
+  - **e2e/**: Local onde os testes de ponta a ponta estão armazenados. O arquivo de teste principal pode ser encontrado aqui.
+- **cypress.config.js**: Arquivo de configuração do Cypress.
+
+## Executando os Testes
+
+Para executar os testes automatizados, utilize o seguinte comando para abrir a interface do Cypress:
 
 ```bash
 npx cypress open
