@@ -35,13 +35,13 @@ npx cypress open
 
 Em seguida, selecione o arquivo de teste localizado em cypress/e2e/ para iniciar a execução.
 
-## Gerando Dados Dinâmicos
+# Gerando Dados Dinâmicos
 Este projeto utiliza a biblioteca Faker para gerar dados aleatórios e dinâmicos durante os testes. Isso ajuda a simular diferentes cenários de entrada de dados no fluxo de compra de passagens.
 
-## Contribuindo
+# Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
 
-## Licença
+# Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 Este `README.md` oferece uma visão clara sobre como configurar, rodar os testes, e a importância do uso do Faker para a geração de dados. Se precisar de ajustes ou adições, me avise!
