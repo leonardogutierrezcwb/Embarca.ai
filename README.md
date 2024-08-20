@@ -33,3 +33,15 @@ Para executar os testes automatizados, utilize o comando abaixo para abrir a int
 
 ```bash
 npx cypress open
+```
+
+Navegue até o diretório cypress/e2e/ e selecione o teste desejado para iniciar a execução.
+
+Gerando Dados Dinâmicos com Faker
+Este projeto utiliza a biblioteca Faker para criar dados aleatórios, simulando cenários variados de entrada no fluxo de compra de passagens, garantindo a cobertura de diferentes casos de uso.
+
+Contribuindo
+Contribuições são bem-vindas! Se encontrar algum problema ou tiver sugestões, sinta-se à vontade para abrir um pull request ou relatar um issue.
+
+Licença
+Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais informações.
