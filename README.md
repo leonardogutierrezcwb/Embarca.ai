@@ -31,7 +31,7 @@ Este repositório contém scripts automatizados para testar os fluxos de compra 
 Para executar os testes automatizados, utilize o seguinte comando para abrir a interface do Cypress:
 
 ```bash
-npx cypress open
+npx cypress open ´´´
 
 Em seguida, selecione o arquivo de teste localizado em cypress/e2e/ para iniciar a execução.
 
